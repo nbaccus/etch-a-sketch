@@ -1,0 +1,36 @@
+html, body {
+    height:100%;
+    max-width: 960px;
+    margin:0 auto;
+}
+
+body{
+  display:table-cell; text-align:center; vertical-align:middle;
+
+}
+
+.wrapper {
+
+    height:760px;
+    width:760px;
+    display: grid;
+    border: 1px solid rgb(255, 105, 180);
+    
+
+}
+
+button {
+    background-color:rgb(255, 105, 180);
+    align-self: center;
+   margin:10px;
+   color: white;
+}
+
+h1 {
+    color:white;
+    height:10px;
+    text-shadow: -2px 0 rgb(255, 105, 180), 0 2px rgb(255, 105, 180), 2px 0 rgb(255, 105, 180), 0 -2px rgb(255, 105, 180);
+    /* position:absolute;
+    top:0;
+    left:0; */
+}
